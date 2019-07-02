@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="3" tests="1" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="1" errors="0" time="3" timestamp="2019-06-23 18:47:13" hostname="703177749 - BMCLPJRF2" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\New Test Suite\\20190623_184710"/>
+         <property name="logFiles" value="C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\New Test Suite\\20190623_184710\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="703177749 - BMCLPJRF2"/>
+         <property name="hostAddress" value="10.74.125.21"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+      </properties>
+      <testcase name="Test Cases/report" classname="Test Cases/report" status="FAILED">
+         <failure type="FAILED" message="Test Cases/report FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at report.run(report:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561295830074.run(TempTestSuite1561295830074.groovy:35)
+"/>
+         <system-out><![CDATA[2019-06-23 18:47:15 - [TEST_CASE][FAILED] - Test Cases/report: Test Cases/report FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at report.run(report:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561295830074.run(TempTestSuite1561295830074.groovy:35)
+
+
+2019-06-23 18:47:15 - [TEST_STEP][PASSED] - Start listener action : setUp: com.utils.reporting.createFile is PASSED
+
+2019-06-23 18:47:15 - [TEST_STEP][PASSED] - testName = testCaseContext.getTestCaseId(): null
+
+2019-06-23 18:47:15 - [TEST_STEP][PASSED] - fullPath = testName: null
+
+2019-06-23 18:47:15 - [TEST_STEP][PASSED] - index = fullPath.lastIndexOf("/"): null
+
+2019-06-23 18:47:15 - [TEST_STEP][PASSED] - testName = fullPath.substring(index + 1): null
+
+2019-06-23 18:47:15 - [TEST_STEP][PASSED] - com.utils.reporting.createFile(testName): com.utils.reporting.createFile is PASSED
+
+2019-06-23 18:47:15 - [MESSAGE][PASSED] - com.utils.reporting.createFile is PASSED
+
+2019-06-23 18:47:15 - [TEST_STEP][FAILED] - openBrowser(""): openBrowser("") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at report.run(report:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561295830074.run(TempTestSuite1561295830074.groovy:35)
+
+
+2019-06-23 18:47:16 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-06-23 18:47:16 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-23 18:47:16 - [MESSAGE][FAILED] - Unable to open browser with url: ''
+
+2019-06-23 18:47:16 - [MESSAGE][FAILED] - openBrowser("") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at report.run(report:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561295830074.run(TempTestSuite1561295830074.groovy:35)
+
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - Start listener action : tearDown: null
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - com.utils.reporting.afterTestRun(): com.utils.reporting.afterTestRun is PASSED
+
+2019-06-23 18:47:16 - [MESSAGE][PASSED] - com.utils.reporting.afterTestRun is PASSED
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - com.utils.reporting.afterScript(testName): com.utils.reporting.afterScript is PASSED
+
+2019-06-23 18:47:16 - [MESSAGE][PASSED] - com.utils.reporting.afterScript is PASSED
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - stepNo = 1: null]]></system-out>
+         <system-err><![CDATA[2019-06-23 18:47:15 - [TEST_CASE][FAILED] - Test Cases/report: Test Cases/report FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at report.run(report:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561295830074.run(TempTestSuite1561295830074.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tryingReport" classname="Test Cases/tryingReport" status="PASSED">
+         <system-out><![CDATA[2019-06-23 18:47:16 - [TEST_CASE][PASSED] - Test Cases/tryingReport: Test Cases/tryingReport
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - Start listener action : setUp: com.utils.reporting.createFile is PASSED
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - testName = testCaseContext.getTestCaseId(): null
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - fullPath = testName: null
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - index = fullPath.lastIndexOf("/"): null
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - testName = fullPath.substring(index + 1): null
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - com.utils.reporting.createFile(testName): com.utils.reporting.createFile is PASSED
+
+2019-06-23 18:47:16 - [MESSAGE][PASSED] - com.utils.reporting.createFile is PASSED
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - com.utils.reporting.writeIntoFile(testName, "stepSummary", "stepDecription", "ActualResult", pass, "", com.utils.reporting.getCurrentDateTime()): com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-23 18:47:16 - [MESSAGE][PASSED] - com.utils.reporting.getCurrentDateTime is PASSED
+
+2019-06-23 18:47:16 - [MESSAGE][PASSED] - com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - com.utils.reporting.writeIntoFile(testName, "stepSummary", "stepDecription", "ActualResult", pass, "", com.utils.reporting.getCurrentDateTime()): com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-23 18:47:16 - [MESSAGE][PASSED] - com.utils.reporting.getCurrentDateTime is PASSED
+
+2019-06-23 18:47:16 - [MESSAGE][PASSED] - com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - com.utils.reporting.writeIntoFile(testName, "stepSummary", "stepDecription", "ActualResult", pass, "", com.utils.reporting.getCurrentDateTime()): com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-23 18:47:16 - [MESSAGE][PASSED] - com.utils.reporting.getCurrentDateTime is PASSED
+
+2019-06-23 18:47:16 - [MESSAGE][PASSED] - com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - com.utils.reporting.writeIntoFile(testName, "stepSummary", "stepDecription", "ActualResult", pass, "", com.utils.reporting.getCurrentDateTime()): com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-23 18:47:16 - [MESSAGE][PASSED] - com.utils.reporting.getCurrentDateTime is PASSED
+
+2019-06-23 18:47:16 - [MESSAGE][PASSED] - com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - Start listener action : tearDown: null
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - com.utils.reporting.afterTestRun(): com.utils.reporting.afterTestRun is PASSED
+
+2019-06-23 18:47:16 - [MESSAGE][PASSED] - com.utils.reporting.afterTestRun is PASSED
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - com.utils.reporting.afterScript(testName): com.utils.reporting.afterScript is PASSED
+
+2019-06-23 18:47:16 - [MESSAGE][PASSED] - com.utils.reporting.afterScript is PASSED
+
+2019-06-23 18:47:16 - [TEST_STEP][PASSED] - stepNo = 1: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-23 18:47:13 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/report FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at report.run(report:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561295830074.run(TempTestSuite1561295830074.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-06-23 18:47:13 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/report FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at report.run(report:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1561295830074.run(TempTestSuite1561295830074.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

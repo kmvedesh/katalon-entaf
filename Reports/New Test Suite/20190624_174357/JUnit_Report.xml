@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="62" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="62" timestamp="2019-06-24 17:44:00" hostname="703177749 - BMCLPJRF2" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\New Test Suite\\20190624_174357"/>
+         <property name="logFiles" value="C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\New Test Suite\\20190624_174357\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\New Test Suite\\20190624_174357\\1561378500374.png, C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\New Test Suite\\20190624_174357\\1561378500994.png, C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\\\Results\\Screenshots\\report_24-Jun-2019 17-45-01.jpg"/>
+         <property name="hostName" value="703177749 - BMCLPJRF2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 74.0.3729.108"/>
+         <property name="hostAddress" value="10.168.217.135"/>
+         <property name="sessionId" value="0a67d0fd1143322f3a5abd2312560819"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/report" classname="Test Cases/report" status="PASSED">
+         <system-out><![CDATA[2019-06-24 17:44:01 - [TEST_CASE][PASSED] - Test Cases/report: Test Cases/report
+
+2019-06-24 17:44:01 - [TEST_STEP][PASSED] - Start listener action : setUp: com.utils.reporting.createFile is PASSED
+
+2019-06-24 17:44:01 - [TEST_STEP][PASSED] - testName = testCaseContext.getTestCaseId(): null
+
+2019-06-24 17:44:01 - [TEST_STEP][PASSED] - fullPath = testName: null
+
+2019-06-24 17:44:01 - [TEST_STEP][PASSED] - segments = fullPath.split("/"): null
+
+2019-06-24 17:44:02 - [TEST_STEP][PASSED] - testName = segments[length - 1]: null
+
+2019-06-24 17:44:02 - [TEST_STEP][PASSED] - moduleName = segments[length - 2]: null
+
+2019-06-24 17:44:02 - [TEST_STEP][PASSED] - com.utils.reporting.createFile(testName): com.utils.reporting.createFile is PASSED
+
+2019-06-24 17:44:02 - [MESSAGE][PASSED] - com.utils.reporting.createFile is PASSED
+
+2019-06-24 17:44:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-24 17:44:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-24 17:44:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-24 17:44:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-24 17:44:08 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://cncdevui.azurewebsites.net/UI/#/account/login' successfully
+
+2019-06-24 17:44:24 - [MESSAGE][PASSED] - Navigate to 'http://cncdevui.azurewebsites.net/UI/#/account/login' successfully
+
+2019-06-24 17:44:24 - [TEST_STEP][PASSED] - waitForPageLoad(Max_Delay): Wait for page load successfully
+
+2019-06-24 17:44:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-06-24 17:44:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-06-24 17:44:26 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-24 17:44:26 - [TEST_STEP][PASSED] - browserName = getExecutedBrowser().getName(): null
+
+2019-06-24 17:44:26 - [TEST_STEP][PASSED] - println(browserName): null
+
+2019-06-24 17:44:26 - [TEST_STEP][FAILED] - try: Unable to verify object 'Object Repository/Page_Login/a_Dashboard' is visible
+
+2019-06-24 17:44:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/div_genpact-logo")): Object 'Object Repository/Page_Login/div_genpact-logo' is visible
+
+2019-06-24 17:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/div_genpact-logo' is visible
+
+2019-06-24 17:44:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/edittext_Username")): Object 'Object Repository/Page_Login/edittext_Username' is visible
+
+2019-06-24 17:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/edittext_Username' is visible
+
+2019-06-24 17:44:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/edittext_Password")): Object 'Object Repository/Page_Login/edittext_Password' is visible
+
+2019-06-24 17:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/edittext_Password' is visible
+
+2019-06-24 17:44:26 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Login/button_SIGN IN")): Object 'Object Repository/Page_Login/button_SIGN IN' is clickable
+
+2019-06-24 17:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/button_SIGN IN' is clickable
+
+2019-06-24 17:44:26 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Page_Login/a_Dashboard")): Unable to verify object 'Object Repository/Page_Login/a_Dashboard' is visible
+
+2019-06-24 17:45:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[(text() = 'Dashboard' or . = 'Dashboard')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-06-24 17:45:00 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Page_Login/a_Dashboard' located by 'By.xpath: //a[(text() = 'Dashboard' or . = 'Dashboard')]' not found
+[[ATTACHMENT|C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\New Test Suite\\20190624_174357\\1561378500374.png]]
+
+2019-06-24 17:45:01 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Login/a_Dashboard' is visible
+[[ATTACHMENT|C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\New Test Suite\\20190624_174357\\1561378500994.png]]
+
+2019-06-24 17:45:01 - [TEST_STEP][PASSED] - catch (Exception e): com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-24 17:45:01 - [TEST_STEP][PASSED] - com.utils.reporting.writeIntoFile(testName, "stepSummary", "stepDecription", browserName, "ActualResult", fail, e.getMessage(), com.utils.reporting.getCurrentDateTime()): com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-24 17:45:01 - [MESSAGE][PASSED] - com.utils.reporting.getCurrentDateTime is PASSED
+
+2019-06-24 17:45:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\\\Results\\Screenshots\\report_24-Jun-2019 17-45-01.jpg]]
+
+2019-06-24 17:45:01 - [MESSAGE][PASSED] - com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-24 17:45:01 - [TEST_STEP][PASSED] - Start listener action : tearDown: null
+
+2019-06-24 17:45:01 - [TEST_STEP][PASSED] - com.utils.reporting.afterTestRun(): com.utils.reporting.afterTestRun is PASSED
+
+2019-06-24 17:45:01 - [MESSAGE][PASSED] - com.utils.reporting.afterTestRun is PASSED
+
+2019-06-24 17:45:01 - [TEST_STEP][PASSED] - com.utils.reporting.afterScript(moduleName, testName): com.utils.reporting.afterScript is PASSED
+
+2019-06-24 17:45:01 - [MESSAGE][PASSED] - com.utils.reporting.afterScript is PASSED
+
+2019-06-24 17:45:01 - [TEST_STEP][PASSED] - stepNo = 1: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-24 17:44:00 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/report]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

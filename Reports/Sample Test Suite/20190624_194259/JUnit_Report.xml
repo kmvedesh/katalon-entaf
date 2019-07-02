@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sample Test Suite" time="22" tests="1" failures="0" errors="0">
+   <testsuite name="Sample Test Suite" tests="1" failures="0" errors="0" time="22" timestamp="2019-06-24 19:43:02" hostname="703177749 - BMCLPJRF2" id="Test Suites/Sample Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\Sample Test Suite\\20190624_194259"/>
+         <property name="logFiles" value="C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\Sample Test Suite\\20190624_194259\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="703177749 - BMCLPJRF2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 74.0.3729.108"/>
+         <property name="hostAddress" value="10.168.217.135"/>
+         <property name="sessionId" value="4e9554b0cb9b5df35da0a32172b8cf54"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Module/passScenario" classname="Test Cases/Login Module/passScenario" status="PASSED">
+         <system-out><![CDATA[2019-06-24 19:43:03 - [TEST_CASE][PASSED] - Test Cases/Login Module/passScenario: Test Cases/Login Module/passScenario
+
+2019-06-24 19:43:03 - [TEST_STEP][PASSED] - Start listener action : setUp: com.utils.reporting.createFile is PASSED
+
+2019-06-24 19:43:03 - [TEST_STEP][PASSED] - testName = testCaseContext.getTestCaseId(): null
+
+2019-06-24 19:43:03 - [TEST_STEP][PASSED] - fullPath = testName: null
+
+2019-06-24 19:43:03 - [TEST_STEP][PASSED] - segments = fullPath.split("/"): null
+
+2019-06-24 19:43:03 - [TEST_STEP][PASSED] - testName = segments[length - 1]: null
+
+2019-06-24 19:43:03 - [TEST_STEP][PASSED] - moduleName = segments[length - 2]: null
+
+2019-06-24 19:43:03 - [TEST_STEP][PASSED] - browserName = getExecutedBrowser().getName(): null
+
+2019-06-24 19:43:04 - [TEST_STEP][PASSED] - browser = browserName: null
+
+2019-06-24 19:43:04 - [TEST_STEP][PASSED] - partition = browser.split("_"): null
+
+2019-06-24 19:43:04 - [TEST_STEP][PASSED] - browserName = partition[length - 2]: null
+
+2019-06-24 19:43:04 - [TEST_STEP][PASSED] - com.utils.reporting.createFile(testName): com.utils.reporting.createFile is PASSED
+
+2019-06-24 19:43:04 - [MESSAGE][PASSED] - com.utils.reporting.createFile is PASSED
+
+2019-06-24 19:43:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-24 19:43:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-24 19:43:05 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-24 19:43:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-24 19:43:10 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://cncdevui.azurewebsites.net/UI/#/account/login' successfully
+
+2019-06-24 19:43:22 - [MESSAGE][PASSED] - Navigate to 'http://cncdevui.azurewebsites.net/UI/#/account/login' successfully
+
+2019-06-24 19:43:22 - [TEST_STEP][PASSED] - waitForPageLoad(Max_Delay): Wait for page load successfully
+
+2019-06-24 19:43:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-06-24 19:43:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-06-24 19:43:23 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-24 19:43:23 - [TEST_STEP][PASSED] - try: com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-24 19:43:23 - [TEST_STEP][PASSED] - com.utils.reporting.writeIntoFile(testName, "stepSummary", "stepDecription", browserName, "ActualResult", pass, "", com.utils.reporting.getCurrentDateTime()): com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-24 19:43:23 - [MESSAGE][PASSED] - com.utils.reporting.getCurrentDateTime is PASSED
+
+2019-06-24 19:43:23 - [MESSAGE][PASSED] - com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-24 19:43:23 - [TEST_STEP][PASSED] - Start listener action : tearDown: null
+
+2019-06-24 19:43:23 - [TEST_STEP][PASSED] - com.utils.reporting.afterTestRun(): com.utils.reporting.afterTestRun is PASSED
+
+2019-06-24 19:43:23 - [MESSAGE][PASSED] - com.utils.reporting.afterTestRun is PASSED
+
+2019-06-24 19:43:23 - [TEST_STEP][PASSED] - com.utils.reporting.afterScript(moduleName, testName): com.utils.reporting.afterScript is PASSED
+
+2019-06-24 19:43:23 - [MESSAGE][PASSED] - com.utils.reporting.afterScript is PASSED
+
+2019-06-24 19:43:23 - [TEST_STEP][PASSED] - stepNo = 1: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-24 19:43:02 - [TEST_SUITE][PASSED] - Sample Test Suite: Test Cases/Login Module/passScenario]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

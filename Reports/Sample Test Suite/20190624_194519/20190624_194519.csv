@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sample Test Suite,Chrome 74.0.3729.108,,2019-06-24 19:45:23,2019-06-24 19:45:43,20.359s,PASSED
+,,,,,,
+Test Cases/Login Module/passScenario,Chrome 74.0.3729.108,,2019-06-24 19:45:24,2019-06-24 19:45:40,15.824s,PASSED
+Start listener action : setUp,Chrome 74.0.3729.108,,2019-06-24 19:45:24,2019-06-24 19:45:25,0.271s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-06-24 19:45:25,2019-06-24 19:45:32,6.404s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.108,,2019-06-24 19:45:32,2019-06-24 19:45:40,8.019s,PASSED
+waitForPageLoad(Max_Delay),Chrome 74.0.3729.108,,2019-06-24 19:45:40,2019-06-24 19:45:40,0.467s,PASSED
+try,Chrome 74.0.3729.108,,2019-06-24 19:45:40,2019-06-24 19:45:40,0.036s,PASSED
+Start listener action : tearDown,Chrome 74.0.3729.108,,2019-06-24 19:45:40,2019-06-24 19:45:40,0.024s,PASSED

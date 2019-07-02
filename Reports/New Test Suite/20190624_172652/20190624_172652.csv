@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 74.0.3729.108,,2019-06-24 17:26:55,2019-06-24 17:27:42,47.078s,PASSED
+,,,,,,
+Test Cases/report,Chrome 74.0.3729.108,,2019-06-24 17:26:57,2019-06-24 17:27:41,44.529s,PASSED
+Start listener action : setUp,Chrome 74.0.3729.108,,2019-06-24 17:26:57,2019-06-24 17:26:57,0.149s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-06-24 17:26:57,2019-06-24 17:27:03,5.339s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.108,,2019-06-24 17:27:03,2019-06-24 17:27:40,37.027s,PASSED
+waitForPageLoad(Max_Delay),Chrome 74.0.3729.108,,2019-06-24 17:27:40,2019-06-24 17:27:40,0.092s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-06-24 17:27:40,2019-06-24 17:27:41,1.364s,PASSED
+browserName = getExecutedBrowser().getName(),Chrome 74.0.3729.108,,2019-06-24 17:27:41,2019-06-24 17:27:41,0.024s,PASSED
+println(browserName),Chrome 74.0.3729.108,,2019-06-24 17:27:41,2019-06-24 17:27:41,0.005s,PASSED
+try,Chrome 74.0.3729.108,,2019-06-24 17:27:41,2019-06-24 17:27:41,0.027s,PASSED
+Start listener action : tearDown,Chrome 74.0.3729.108,,2019-06-24 17:27:41,2019-06-24 17:27:41,0.027s,PASSED

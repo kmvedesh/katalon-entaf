@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sample Test Suite,Chrome 74.0.3729.108,,2019-06-24 18:15:44,2019-06-24 18:15:57,13.119s,FAILED
+,,,,,,
+Test Cases/Login Module/report,Chrome 74.0.3729.108,,2019-06-24 18:15:45,2019-06-24 18:15:52,6.693s,FAILED
+Start listener action : setUp,Chrome 74.0.3729.108,,2019-06-24 18:15:45,2019-06-24 18:15:45,0.577s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-06-24 18:15:46,2019-06-24 18:15:51,5.160s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.108,,2019-06-24 18:15:51,2019-06-24 18:15:51,0.419s,FAILED
+Start listener action : tearDown,Chrome 74.0.3729.108,,2019-06-24 18:15:51,2019-06-24 18:15:52,0.052s,PASSED
+,,,,,,
+Test Cases/Sample Module/tryingReport,Chrome 74.0.3729.108,,2019-06-24 18:15:52,2019-06-24 18:15:56,4.462s,FAILED
+Start listener action : setUp,Chrome 74.0.3729.108,,2019-06-24 18:15:52,2019-06-24 18:15:52,0.035s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-06-24 18:15:52,2019-06-24 18:15:56,3.762s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.108,,2019-06-24 18:15:56,2019-06-24 18:15:56,0.333s,FAILED
+Start listener action : tearDown,Chrome 74.0.3729.108,,2019-06-24 18:15:56,2019-06-24 18:15:56,0.008s,PASSED

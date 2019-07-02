@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sample Test Suite" time="207" tests="2" failures="0" errors="0">
+   <testsuite name="Sample Test Suite" tests="2" failures="0" errors="0" time="207" timestamp="2019-06-24 18:24:29" hostname="703177749 - BMCLPJRF2" id="Test Suites/Sample Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\Sample Test Suite\\20190624_182425"/>
+         <property name="logFiles" value="C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\Sample Test Suite\\20190624_182425\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\Sample Test Suite\\20190624_182425\\1561381074398.png, C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\Sample Test Suite\\20190624_182425\\1561381074783.png, C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\\\Results\\Screenshots\\failScenario_24-Jun-2019 18-27-55.jpg"/>
+         <property name="hostName" value="703177749 - BMCLPJRF2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 74.0.3729.108"/>
+         <property name="hostAddress" value="10.168.217.135"/>
+         <property name="sessionId" value="0f207842b4f6f295edde03650a073620"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Module/passScenario" classname="Test Cases/Login Module/passScenario" status="PASSED">
+         <system-out><![CDATA[2019-06-24 18:24:30 - [TEST_CASE][PASSED] - Test Cases/Login Module/passScenario: Test Cases/Login Module/passScenario
+
+2019-06-24 18:24:30 - [TEST_STEP][PASSED] - Start listener action : setUp: com.utils.reporting.createFile is PASSED
+
+2019-06-24 18:24:30 - [TEST_STEP][PASSED] - testName = testCaseContext.getTestCaseId(): null
+
+2019-06-24 18:24:30 - [TEST_STEP][PASSED] - fullPath = testName: null
+
+2019-06-24 18:24:30 - [TEST_STEP][PASSED] - segments = fullPath.split("/"): null
+
+2019-06-24 18:24:30 - [TEST_STEP][PASSED] - testName = segments[length - 1]: null
+
+2019-06-24 18:24:30 - [TEST_STEP][PASSED] - moduleName = segments[length - 2]: null
+
+2019-06-24 18:24:30 - [TEST_STEP][PASSED] - browserName = getExecutedBrowser().getName(): null
+
+2019-06-24 18:24:30 - [TEST_STEP][PASSED] - browser = browserName: null
+
+2019-06-24 18:24:30 - [TEST_STEP][PASSED] - partition = browser.split("_"): null
+
+2019-06-24 18:24:30 - [TEST_STEP][PASSED] - browserName = partition[length - 2]: null
+
+2019-06-24 18:24:30 - [TEST_STEP][PASSED] - com.utils.reporting.createFile(testName): com.utils.reporting.createFile is PASSED
+
+2019-06-24 18:24:30 - [MESSAGE][PASSED] - com.utils.reporting.createFile is PASSED
+
+2019-06-24 18:24:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-24 18:24:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-24 18:24:31 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-24 18:24:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-24 18:24:36 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://cncdevui.azurewebsites.net/UI/#/account/login' successfully
+
+2019-06-24 18:24:50 - [MESSAGE][PASSED] - Navigate to 'http://cncdevui.azurewebsites.net/UI/#/account/login' successfully
+
+2019-06-24 18:24:50 - [TEST_STEP][PASSED] - waitForPageLoad(Max_Delay): Wait for page load successfully
+
+2019-06-24 18:24:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-06-24 18:24:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-06-24 18:24:51 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-24 18:24:51 - [TEST_STEP][PASSED] - try: com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-24 18:24:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/div_genpact-logo")): Object 'Object Repository/Page_Login/div_genpact-logo' is visible
+
+2019-06-24 18:24:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/div_genpact-logo' is visible
+
+2019-06-24 18:24:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/edittext_Username")): Object 'Object Repository/Page_Login/edittext_Username' is visible
+
+2019-06-24 18:24:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/edittext_Username' is visible
+
+2019-06-24 18:24:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/edittext_Password")): Object 'Object Repository/Page_Login/edittext_Password' is visible
+
+2019-06-24 18:24:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/edittext_Password' is visible
+
+2019-06-24 18:24:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Login/button_SIGN IN")): Object 'Object Repository/Page_Login/button_SIGN IN' is clickable
+
+2019-06-24 18:24:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/button_SIGN IN' is clickable
+
+2019-06-24 18:24:52 - [TEST_STEP][PASSED] - com.utils.reporting.writeIntoFile(testName, "stepSummary", "stepDecription", browserName, "ActualResult", pass, "", com.utils.reporting.getCurrentDateTime()): com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-24 18:24:52 - [MESSAGE][PASSED] - com.utils.reporting.getCurrentDateTime is PASSED
+
+2019-06-24 18:24:52 - [MESSAGE][PASSED] - com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-24 18:24:52 - [TEST_STEP][ERROR] - Start listener action : tearDown: com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: java.text.ParseException: Unparseable date: "24-Jun-2019 18:24:29"
+
+2019-06-24 18:24:52 - [TEST_STEP][PASSED] - com.utils.reporting.afterTestRun(): com.utils.reporting.afterTestRun is PASSED
+
+2019-06-24 18:24:52 - [MESSAGE][PASSED] - com.utils.reporting.afterTestRun is PASSED
+
+2019-06-24 18:24:52 - [TEST_STEP][ERROR] - com.utils.reporting.afterScript(moduleName, testName): com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: java.text.ParseException: Unparseable date: "24-Jun-2019 18:24:29"
+
+2019-06-24 18:24:52 - [MESSAGE][ERROR] - java.text.ParseException: Unparseable date: "24-Jun-2019 18:24:29"
+
+2019-06-24 18:24:52 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: java.text.ParseException: Unparseable date: "24-Jun-2019 18:24:29"]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Module/failScenario" classname="Test Cases/Login Module/failScenario" status="PASSED">
+         <system-out><![CDATA[2019-06-24 18:24:52 - [TEST_CASE][PASSED] - Test Cases/Login Module/failScenario: Test Cases/Login Module/failScenario
+
+2019-06-24 18:24:52 - [TEST_STEP][PASSED] - Start listener action : setUp: com.utils.reporting.createFile is PASSED
+
+2019-06-24 18:24:52 - [TEST_STEP][PASSED] - testName = testCaseContext.getTestCaseId(): null
+
+2019-06-24 18:24:52 - [TEST_STEP][PASSED] - fullPath = testName: null
+
+2019-06-24 18:24:52 - [TEST_STEP][PASSED] - segments = fullPath.split("/"): null
+
+2019-06-24 18:24:52 - [TEST_STEP][PASSED] - testName = segments[length - 1]: null
+
+2019-06-24 18:24:52 - [TEST_STEP][PASSED] - moduleName = segments[length - 2]: null
+
+2019-06-24 18:24:52 - [TEST_STEP][PASSED] - browserName = getExecutedBrowser().getName(): null
+
+2019-06-24 18:24:52 - [TEST_STEP][PASSED] - browser = browserName: null
+
+2019-06-24 18:24:52 - [TEST_STEP][PASSED] - partition = browser.split("_"): null
+
+2019-06-24 18:24:52 - [TEST_STEP][PASSED] - browserName = partition[length - 2]: null
+
+2019-06-24 18:24:52 - [TEST_STEP][PASSED] - com.utils.reporting.createFile(testName): com.utils.reporting.createFile is PASSED
+
+2019-06-24 18:24:52 - [MESSAGE][PASSED] - com.utils.reporting.createFile is PASSED
+
+2019-06-24 18:24:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-24 18:24:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-24 18:24:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-24 18:24:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-24 18:24:56 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://cncdevui.azurewebsites.net/UI/#/account/login' successfully
+
+2019-06-24 18:27:41 - [MESSAGE][PASSED] - Navigate to 'http://cncdevui.azurewebsites.net/UI/#/account/login' successfully
+
+2019-06-24 18:27:41 - [TEST_STEP][PASSED] - waitForPageLoad(Max_Delay): Wait for page load successfully
+
+2019-06-24 18:27:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-06-24 18:27:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-06-24 18:27:43 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-24 18:27:43 - [TEST_STEP][FAILED] - try: Unable to verify object 'Object Repository/Page_Login/a_Dashboard' is present
+
+2019-06-24 18:27:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/div_genpact-logo")): Object 'Object Repository/Page_Login/div_genpact-logo' is visible
+
+2019-06-24 18:27:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/div_genpact-logo' is visible
+
+2019-06-24 18:27:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/edittext_Username")): Object 'Object Repository/Page_Login/edittext_Username' is visible
+
+2019-06-24 18:27:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/edittext_Username' is visible
+
+2019-06-24 18:27:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/edittext_Password")): Object 'Object Repository/Page_Login/edittext_Password' is visible
+
+2019-06-24 18:27:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/edittext_Password' is visible
+
+2019-06-24 18:27:43 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Login/button_SIGN IN")): Object 'Object Repository/Page_Login/button_SIGN IN' is clickable
+
+2019-06-24 18:27:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/button_SIGN IN' is clickable
+
+2019-06-24 18:27:43 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Page_Login/a_Dashboard"), 10): Unable to verify object 'Object Repository/Page_Login/a_Dashboard' is present
+
+2019-06-24 18:27:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[(text() = 'Dashboard' or . = 'Dashboard')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-06-24 18:27:54 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Login/a_Dashboard' located by 'By.xpath: //a[(text() = 'Dashboard' or . = 'Dashboard')]' not found
+[[ATTACHMENT|C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\Sample Test Suite\\20190624_182425\\1561381074398.png]]
+
+2019-06-24 18:27:55 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Login/a_Dashboard' is present
+[[ATTACHMENT|C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\Sample Test Suite\\20190624_182425\\1561381074783.png]]
+
+2019-06-24 18:27:55 - [TEST_STEP][PASSED] - catch (Exception e): com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-24 18:27:55 - [TEST_STEP][PASSED] - com.utils.reporting.writeIntoFile(testName, "stepSummary", "stepDecription", browserName, "ActualResult", fail, e.getMessage(), com.utils.reporting.getCurrentDateTime()): com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-24 18:27:55 - [MESSAGE][PASSED] - com.utils.reporting.getCurrentDateTime is PASSED
+
+2019-06-24 18:27:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\Katalon - EnTAF Reporting\\EnTAF Reporting\\\\Results\\Screenshots\\failScenario_24-Jun-2019 18-27-55.jpg]]
+
+2019-06-24 18:27:55 - [MESSAGE][PASSED] - com.utils.reporting.writeIntoFile is PASSED
+
+2019-06-24 18:27:55 - [TEST_STEP][ERROR] - Start listener action : tearDown: com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: java.text.ParseException: Unparseable date: "24-Jun-2019 18:24:29"
+
+2019-06-24 18:27:55 - [TEST_STEP][PASSED] - com.utils.reporting.afterTestRun(): com.utils.reporting.afterTestRun is PASSED
+
+2019-06-24 18:27:55 - [MESSAGE][PASSED] - com.utils.reporting.afterTestRun is PASSED
+
+2019-06-24 18:27:55 - [TEST_STEP][ERROR] - com.utils.reporting.afterScript(moduleName, testName): com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: java.text.ParseException: Unparseable date: "24-Jun-2019 18:24:29"
+
+2019-06-24 18:27:55 - [MESSAGE][ERROR] - java.text.ParseException: Unparseable date: "24-Jun-2019 18:24:29"
+
+2019-06-24 18:27:55 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: java.text.ParseException: Unparseable date: "24-Jun-2019 18:24:29"]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-24 18:24:29 - [TEST_SUITE][PASSED] - Sample Test Suite: Test Cases/Login Module/failScenario]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

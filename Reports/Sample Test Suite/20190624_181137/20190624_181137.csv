@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sample Test Suite,Chrome 74.0.3729.108,,2019-06-24 18:11:41,2019-06-24 18:12:19,37.432s,ERROR
+,,,,,,
+Test Cases/Login Module/report,Chrome 74.0.3729.108,,2019-06-24 18:11:43,2019-06-24 18:12:17,34.050s,PASSED
+Start listener action : setUp,Chrome 74.0.3729.108,,2019-06-24 18:11:43,2019-06-24 18:11:43,0.256s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-06-24 18:11:44,2019-06-24 18:11:49,5.462s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.108,,2019-06-24 18:11:49,2019-06-24 18:12:03,13.925s,PASSED
+waitForPageLoad(Max_Delay),Chrome 74.0.3729.108,,2019-06-24 18:12:03,2019-06-24 18:12:03,0.099s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-06-24 18:12:03,2019-06-24 18:12:04,1.173s,PASSED
+try,Chrome 74.0.3729.108,,2019-06-24 18:12:04,2019-06-24 18:12:16,11.990s,FAILED
+catch (Exception e),Chrome 74.0.3729.108,,2019-06-24 18:12:16,2019-06-24 18:12:17,0.471s,PASSED
+Start listener action : tearDown,Chrome 74.0.3729.108,,2019-06-24 18:12:17,2019-06-24 18:12:17,0.020s,PASSED
+,,,,,,
+Test Cases/Sample Module/tryingReport,Chrome 74.0.3729.108,,2019-06-24 18:12:17,2019-06-24 18:12:17,0.267s,ERROR
+Start listener action : setUp,Chrome 74.0.3729.108,,2019-06-24 18:12:17,2019-06-24 18:12:17,0.033s,PASSED
+"com.utils.reporting.writeIntoFile(testName, ""stepSummary"", ""stepDecription"", ""ActualResult"", pass, """", com.utils.reporting.getCurrentDateTime())",Chrome 74.0.3729.108,,2019-06-24 18:12:17,2019-06-24 18:12:17,0.059s,ERROR
+Start listener action : tearDown,Chrome 74.0.3729.108,,2019-06-24 18:12:17,2019-06-24 18:12:17,0.010s,PASSED

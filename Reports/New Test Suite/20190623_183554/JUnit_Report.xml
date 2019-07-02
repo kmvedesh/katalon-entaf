@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="1" tests="0" failures="0" errors="2">
+   <testsuite name="New Test Suite" tests="0" failures="0" errors="2" time="1" timestamp="2019-06-23 18:35:58" hostname="703177749 - BMCLPJRF2" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\New Test Suite\\20190623_183554"/>
+         <property name="logFiles" value="C:\\Users\\703177749\\Desktop\\Katalon - EnTAF Reporting\\EnTAF Reporting\\Reports\\New Test Suite\\20190623_183554\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="703177749 - BMCLPJRF2"/>
+         <property name="hostAddress" value="10.74.125.21"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+      </properties>
+      <testcase name="Test Cases/report" classname="Test Cases/report" status="ERROR">
+         <error type="ERROR" message="Test Cases/report has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2019-06-23 18:35:59 - [TEST_CASE][ERROR] - Test Cases/report: Test Cases/report has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist
+
+2019-06-23 18:35:59 - [TEST_STEP][ERROR] - Start listener action : tearDown: com.kms.katalon.core.exception.StepErrorException: java.lang.NullPointerException: Cannot invoke method write() on null object
+
+2019-06-23 18:35:59 - [TEST_STEP][PASSED] - com.utils.reporting.afterTestRun(): com.utils.reporting.afterTestRun is PASSED
+
+2019-06-23 18:35:59 - [MESSAGE][PASSED] - com.utils.reporting.afterTestRun is PASSED
+
+2019-06-23 18:36:00 - [TEST_STEP][ERROR] - com.utils.reporting.afterScript(testName): com.kms.katalon.core.exception.StepErrorException: java.lang.NullPointerException: Cannot invoke method write() on null object
+
+2019-06-23 18:36:00 - [MESSAGE][ERROR] - Cannot invoke method write() on null object
+
+2019-06-23 18:36:00 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepErrorException: java.lang.NullPointerException: Cannot invoke method write() on null object]]></system-out>
+         <system-err><![CDATA[2019-06-23 18:35:59 - [TEST_CASE][ERROR] - Test Cases/report: Test Cases/report has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tryingReport" classname="Test Cases/tryingReport" status="ERROR">
+         <error type="ERROR" message="Test Cases/tryingReport has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2019-06-23 18:36:00 - [TEST_CASE][ERROR] - Test Cases/tryingReport: Test Cases/tryingReport has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist
+
+2019-06-23 18:36:00 - [TEST_STEP][ERROR] - Start listener action : tearDown: com.kms.katalon.core.exception.StepErrorException: java.lang.NullPointerException: Cannot invoke method write() on null object
+
+2019-06-23 18:36:00 - [TEST_STEP][PASSED] - com.utils.reporting.afterTestRun(): com.utils.reporting.afterTestRun is PASSED
+
+2019-06-23 18:36:00 - [MESSAGE][PASSED] - com.utils.reporting.afterTestRun is PASSED
+
+2019-06-23 18:36:00 - [TEST_STEP][ERROR] - com.utils.reporting.afterScript(testName): com.kms.katalon.core.exception.StepErrorException: java.lang.NullPointerException: Cannot invoke method write() on null object
+
+2019-06-23 18:36:00 - [MESSAGE][ERROR] - Cannot invoke method write() on null object
+
+2019-06-23 18:36:00 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepErrorException: java.lang.NullPointerException: Cannot invoke method write() on null object]]></system-out>
+         <system-err><![CDATA[2019-06-23 18:36:00 - [TEST_CASE][ERROR] - Test Cases/tryingReport: Test Cases/tryingReport has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-23 18:35:58 - [TEST_SUITE][ERROR] - New Test Suite: Test Cases/report has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+      <system-err><![CDATA[2019-06-23 18:35:58 - [TEST_SUITE][ERROR] - New Test Suite: Test Cases/report has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+   </testsuite>
+</testsuites>

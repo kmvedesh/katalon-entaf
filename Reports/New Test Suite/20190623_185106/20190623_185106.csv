@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 74.0.3729.108,,2019-06-23 18:51:10,2019-06-23 18:52:06,56.187s,PASSED
+,,,,,,
+Test Cases/report,Chrome 74.0.3729.108,,2019-06-23 18:51:11,2019-06-23 18:52:04,53.161s,PASSED
+Start listener action : setUp,Chrome 74.0.3729.108,,2019-06-23 18:51:11,2019-06-23 18:51:11,0.369s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-06-23 18:51:12,2019-06-23 18:51:17,5.215s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.108,,2019-06-23 18:51:17,2019-06-23 18:51:27,10.206s,PASSED
+waitForPageLoad(Max_Delay),Chrome 74.0.3729.108,,2019-06-23 18:51:27,2019-06-23 18:51:27,0.130s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-06-23 18:51:27,2019-06-23 18:51:29,1.201s,PASSED
+try,Chrome 74.0.3729.108,,2019-06-23 18:51:29,2019-06-23 18:52:03,34.803s,FAILED
+catch (Exception e),Chrome 74.0.3729.108,,2019-06-23 18:52:03,2019-06-23 18:52:04,0.485s,PASSED
+Start listener action : tearDown,Chrome 74.0.3729.108,,2019-06-23 18:52:04,2019-06-23 18:52:04,0.024s,PASSED
+,,,,,,
+Test Cases/tryingReport,Chrome 74.0.3729.108,,2019-06-23 18:52:04,2019-06-23 18:52:04,0.255s,PASSED
+Start listener action : setUp,Chrome 74.0.3729.108,,2019-06-23 18:52:04,2019-06-23 18:52:04,0.019s,PASSED
+"com.utils.reporting.writeIntoFile(testName, ""stepSummary"", ""stepDecription"", ""ActualResult"", pass, """", com.utils.reporting.getCurrentDateTime())",Chrome 74.0.3729.108,,2019-06-23 18:52:04,2019-06-23 18:52:04,0.005s,PASSED
+"com.utils.reporting.writeIntoFile(testName, ""stepSummary"", ""stepDecription"", ""ActualResult"", pass, """", com.utils.reporting.getCurrentDateTime())",Chrome 74.0.3729.108,,2019-06-23 18:52:04,2019-06-23 18:52:04,0.005s,PASSED
+"com.utils.reporting.writeIntoFile(testName, ""stepSummary"", ""stepDecription"", ""ActualResult"", pass, """", com.utils.reporting.getCurrentDateTime())",Chrome 74.0.3729.108,,2019-06-23 18:52:04,2019-06-23 18:52:04,0.005s,PASSED
+"com.utils.reporting.writeIntoFile(testName, ""stepSummary"", ""stepDecription"", ""ActualResult"", pass, """", com.utils.reporting.getCurrentDateTime())",Chrome 74.0.3729.108,,2019-06-23 18:52:04,2019-06-23 18:52:04,0.012s,PASSED
+Start listener action : tearDown,Chrome 74.0.3729.108,,2019-06-23 18:52:04,2019-06-23 18:52:04,0.028s,PASSED

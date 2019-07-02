@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2019-06-23 18:47:13,2019-06-23 18:47:17,3.681s,FAILED
+,,,,,,
+Test Cases/report,,,2019-06-23 18:47:15,2019-06-23 18:47:16,1.533s,FAILED
+Start listener action : setUp,,,2019-06-23 18:47:15,2019-06-23 18:47:15,0.074s,PASSED
+"openBrowser("""")",,,2019-06-23 18:47:15,2019-06-23 18:47:16,0.615s,FAILED
+Start listener action : tearDown,,,2019-06-23 18:47:16,2019-06-23 18:47:16,0.092s,PASSED
+,,,,,,
+Test Cases/tryingReport,,,2019-06-23 18:47:16,2019-06-23 18:47:16,0.217s,PASSED
+Start listener action : setUp,,,2019-06-23 18:47:16,2019-06-23 18:47:16,0.015s,PASSED
+"com.utils.reporting.writeIntoFile(testName, ""stepSummary"", ""stepDecription"", ""ActualResult"", pass, """", com.utils.reporting.getCurrentDateTime())",,,2019-06-23 18:47:16,2019-06-23 18:47:16,0.041s,PASSED
+"com.utils.reporting.writeIntoFile(testName, ""stepSummary"", ""stepDecription"", ""ActualResult"", pass, """", com.utils.reporting.getCurrentDateTime())",,,2019-06-23 18:47:16,2019-06-23 18:47:16,0.007s,PASSED
+"com.utils.reporting.writeIntoFile(testName, ""stepSummary"", ""stepDecription"", ""ActualResult"", pass, """", com.utils.reporting.getCurrentDateTime())",,,2019-06-23 18:47:16,2019-06-23 18:47:16,0.005s,PASSED
+"com.utils.reporting.writeIntoFile(testName, ""stepSummary"", ""stepDecription"", ""ActualResult"", pass, """", com.utils.reporting.getCurrentDateTime())",,,2019-06-23 18:47:16,2019-06-23 18:47:16,0.003s,PASSED
+Start listener action : tearDown,,,2019-06-23 18:47:16,2019-06-23 18:47:16,0.015s,PASSED

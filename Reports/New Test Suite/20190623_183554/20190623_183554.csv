@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2019-06-23 18:35:58,2019-06-23 18:36:00,1.586s,ERROR
+,,,,,,
+Test Cases/report,,,2019-06-23 18:35:59,2019-06-23 18:36:00,0.122s,ERROR
+Start listener action : tearDown,,,2019-06-23 18:35:59,2019-06-23 18:36:00,0.108s,ERROR
+,,,,,,
+Test Cases/tryingReport,,,2019-06-23 18:36:00,2019-06-23 18:36:00,0.037s,ERROR
+Start listener action : tearDown,,,2019-06-23 18:36:00,2019-06-23 18:36:00,0.020s,ERROR
